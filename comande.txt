@@ -1,0 +1,4 @@
+mkdir ~/kube-cluster
+cd ~/kube-cluster
+ansible-playbook -i hosts ~/kube-cluster/kube-dependencies.yml
+
